@@ -4,9 +4,9 @@ public class Pgm {
 		
 		public static void table(int r,int c) {
 			System.out.println("<table>"); 
-			for(int i=0;i<r;i++) {
+			for(int j=0;j<r;j++) {
 				System.out.println("<tr>");
-				  for(int j=0;j<c;j++) {
+				  for(int i=0;i<c;i++) {
 					  System.out.println("<td> \t </td>");
 				  }
 				  System.out.println("</tr>");
