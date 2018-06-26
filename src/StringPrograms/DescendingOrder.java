@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DescendingOrder {
 
 	public static void main(String[] args) {
-		int n, temp;
+		int n, temperary;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter no. of elements you want in array:");
         n = s.nextInt();
@@ -21,9 +21,9 @@ public class DescendingOrder {
             {
                 if (a[i] < a[j]) 
                 {
-                    temp = a[i];
+                    temperary = a[i];
                     a[i] = a[j];
-                    a[j] = temp;
+                    a[j] = temperary;
                 }
             }
         }
@@ -35,7 +35,7 @@ public class DescendingOrder {
         System.out.print(a[n - 1]);
     }
 
-
+//comment
 	}
 
 
