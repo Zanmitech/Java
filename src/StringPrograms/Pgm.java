@@ -19,6 +19,7 @@ public class Pgm {
 		public static void main(String[] args) {
 		
 			table(2, 2);
+			//comment line made in git hub 
 	         
 			
 		}
