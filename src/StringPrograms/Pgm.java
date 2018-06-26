@@ -18,7 +18,7 @@ public class Pgm {
 
 		public static void main(String[] args) {
 		
-			table(2, 2);
+			table(3,3);
 			
 	         
 			
