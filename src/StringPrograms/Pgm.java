@@ -4,9 +4,9 @@ public class Pgm {
 		
 		public static void table(int r,int c) {
 			System.out.println("<table>"); 
-			for(int i=0;i<r;i++) {
+			for(int j=0;j<r;j++) {
 				System.out.println("<tr>");
-				  for(int j=0;j<c;j++) {
+				  for(int i=0;i<c;i++) {
 					  System.out.println("<td> \t </td>");
 				  }
 				  System.out.println("</tr>");
@@ -18,8 +18,8 @@ public class Pgm {
 
 		public static void main(String[] args) {
 		
-			table(2, 2);
-			//comment line made in git hub 
+			table(3,3);
+			//comment made in git hub
 	         
 			
 		}
