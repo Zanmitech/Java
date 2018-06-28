@@ -8,7 +8,7 @@ public class DuplicateNumbers
 	public static void main(String[] args) 
 	{
 		
-		int a[] = new int[] { 1,2,3,4,1,2,7 };
+		int a[] = new int[] { 1,2,3,4,1,2,7,5 };
 		   Set<Integer> set = new LinkedHashSet<Integer>();
 		   for (int i = 0; i < a.length; i++)
 		   {
