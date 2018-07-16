@@ -19,7 +19,7 @@ public class Pgm {
 		public static void main(String[] args) {
 		
 			table(3,3);
-			
+			//comment made in git hub
 	         
 			
 		}
