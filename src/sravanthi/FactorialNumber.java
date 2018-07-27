@@ -10,7 +10,6 @@ public class FactorialNumber {
 		}
 		System.out.println("factorial "+num +" is:"+fact);
 	}
-
 	}
 
 

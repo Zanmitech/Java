@@ -8,7 +8,7 @@ public class StarProgram1 {
 		{
 			for(j=5;j>i;j--)
 			{
-				System.out.print(" ");
+			System.out.print(" ");
 			}
 			for(int k=1;k<=i;k++)
 			{
